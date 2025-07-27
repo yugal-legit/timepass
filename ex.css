@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Special+Gothic+Expanded+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: rgb(49, 232, 62);
+  --secondary-color: rgb(209, 248, 205);
+  --text-color: rgb(239, 233, 233);
+}
+body {
+  background-color: var(--secondary-color);
+}
+nav ul {
+  display: flex;
+  background-color: var(--primary-color);
+}
+nav ul li {
+  color: var(--text-color);
+  list-style: none;
+  padding: 10px;
+  margin: 5px;
+  font-size: 19px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+.left1 {
+  display: flex;
+  font-size: 24px;
+  width: 40vw;
+  margin: 12px;
+  padding: 10px;
+  position: relative;
+  top: 50px;
+  left: 30px;
+}
+div article p {
+  font-family: "Poppins", sans-serif;
+}
+.right1 {
+  width: 30vw;
+  height: 50vh;
+  position: absolute;
+  top: 29vh;
+  right: 10vw;
+}
+.right1 img {
+  width: 100%;
+  border-radius: 10px;
+}
+.intro {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  top: 20vh;
+  margin: 0px 12px;
+  height: 80vh;
+}
+footer {
+  position: relative;
+  top: 20vh;
+  bottom: 0;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+  background-color: var(--primary-color);
+  margin: 0;
+}
+footer ul li {
+  font-size: 1em;
+  color: var(--text-color);
+}
+footer ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 10px;
+}
+.intro > content > p:first-child {
+  font-size: 20px;
+  font-family: ;
+  font-weight: 500;
+}
+.intro-p2 {
+  font-size: 28px;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 40vw;
+  justify-content: left;
+}
